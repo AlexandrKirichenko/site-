@@ -1,0 +1,138 @@
+body {
+    background-color: gainsboro;
+}
+.wrepper {
+    width:80%;
+    margin: auto;
+    background-color: whitesmoke;
+    
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .5);
+}
+.navbar{
+    width:100%;
+    background-color: rgb(245, 245, 232);
+    clear: both;
+    display: table;
+    margin:auto;
+}  
+ 
+}
+.menu  {
+    float: left;
+    width:67%;
+    
+    
+    
+    
+}
+.menu ul {
+    clear: both;
+	display: table;
+}
+.menu ul li{
+    float: left;
+	margin: 0px;
+	list-style-type: none;
+	
+    padding:10px 30px 0px 30px;
+    
+}
+ul a {
+    display: block;
+    text-decoration: none;
+}
+.dropdown {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    float: right;
+    
+}
+.dropdown-label {
+    padding: 1em 1em; 
+    cursor: pointer;
+    
+}
+.dropdown-label:hover{
+    color:green;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2em;
+    min-width: 100%;
+    background-color: rgb(245, 245, 232);
+    padding-top: 1em;
+    
+   }
+.dropdown:hover .dropdown-menu {
+    display: block;
+   
+}
+.submenu {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid white;
+}
+.submenu > li + li {
+    border: 1px solid rgb(245, 245, 232);
+}
+.submenu > li > a{
+    display: block;
+    padding: 0.5em 1em;
+    background-color: rgb(245, 245, 232);
+    color: rgba(7, 70, 9, 0.823);
+    text-decoration: none;
+}
+/* обрашение к потомкам , а далее к ссылкам */
+
+.submenu > li > a:hover {
+    background-color: rgb(237, 233, 230);
+}
+.types {
+    display: inline-block;
+    float: right;
+    position: relative;
+
+}
+.company1{
+    background-color: aquamarine;
+   
+}
+.top site {
+ 
+}
+.info {
+    width:80%;
+    height:300px;
+    border: 1px solid red;
+    clear: both;
+    display: table;
+}
+.logo {
+    float:left;
+    width:23%;
+}
+.company {
+    width:20%;
+    float:left;
+    font-size:2em;
+    padding: 10px 20px;
+    text-align: center;
+}
+.company h1 {
+    color:rgb(97, 140, 97);
+    font-weight: bold;
+    
+    text-align: center;
+    vertical-align: middle;
+}
+.contakts {
+    float: left;
+    width:23%;
+}
+
+   
+
